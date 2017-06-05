@@ -45,3 +45,19 @@ group :development do
   gem 'spring'
 end
 
+
+gem 'administrate'
+gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'bourbon'
+gem 'devise'
+gem 'devise_invitable'
+gem 'high_voltage'
+gem 'mysql2', '~> 0.3.18'
+gem 'therubyracer', :platform=>:ruby
+
+group :development do
+  gem 'better_errors'
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
